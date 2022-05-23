@@ -1,0 +1,32 @@
+.home {
+  background-color: var(--bg-color-nav);
+}
+.home__para1 {
+  color: var(--font-color-two);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.home h1 {
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--font-color-two);
+}
+.home__para2 {
+  font-family: cocogoose, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--font-color-one);
+  border: solid;
+  border-color: var(--brd-color-home);
+}
+.home h2 {
+  font-family: cocogoose, sans-serif;
+  font-size: 25px;
+  font-weight: 800; 
+  color: var(--font-color-one);
+}
+.home h3 {
+font-style: 600;
+font-size: 25px;
+}

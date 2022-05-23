@@ -1,0 +1,18 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+:root {
+  --font-color-one: #272a31;
+  --font-color-two: #ec5242;
+  --font-color-three: #d3d3d3;
+  --bg-color-nav: #f7f7f7;
+  --brd-color-home: #fff;
+  --bg-color-prog: rgb(54, 54, 77);
+  --bg-color-content: rgb(165, 165, 195);
+}

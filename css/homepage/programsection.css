@@ -1,0 +1,14 @@
+.program {
+  background-color: var(--bg-color-prog);
+}
+.program h2 {
+  color: var(--font-color-three);
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid var(--font-color-two);
+  width: 50%;
+}
+
+.program__container__content {
+  background-color: var(--bg-color-content);
+}

@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="./css/homepage/navsection.css">
+  <link rel="stylesheet" href="./css/homepage/homesection.css">
+  <link rel="stylesheet" href="./css/homepage/programsection.css">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/bdd8845187.js" crossorigin="anonymous"></script>
   <title>Masters of Philosophy</title>
@@ -11,19 +17,21 @@
 <body>
 <main>
 <header>
-  <nav>
-    <i class="fa-solid fa-bars p-20"></i>
+  <nav class="navigation">
+    <i class="fa-solid fa-bars open-menu"></i>
   </nav>
-  <p>
-    Greetings, students of Philosophy
+</header>
+<section class="home p-4">
+  <p class="home__para1">
+    "Greetings, students of Philosophy"
   </p>
   <h1>
     Masters of Philosophy </br>
-    Annual Congress of Discourse </br>
+    ANNUAL CONGRESS OF DISCOURSE </br>
     2022 </br>
   </h1>
-  <p>
-    An event for all who enjoy the excellent lectures 
+  <p class="home__para2 p-3">
+    An event for all who enjoy the timeless lectures 
     and scholarly wisdom of Ancient Philosophers brought to life 
     through the brilliance of hologram technology. 
   </p>
@@ -33,7 +41,21 @@
   <h3>
     @ The Seneca Hall of Congress, Athens
   </h3>
-</header>
+</section>
+
+<section class="program">
+  <h2 class="text-center p-3 m-auto">
+    Main Program
+  </h2>
+  <div class="program__container d-flex flex-column m-3">
+    <div class="program__container__content d-flex flex-row">
+      <i></i>
+      <h3></h3>
+      <p></p>
+    </div>
+
+  </div>
+</section>
 </main>
 </body>
 </html>
