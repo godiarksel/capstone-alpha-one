@@ -1,6 +1,6 @@
 .program {
   background-color: var(--bg-color-prog);
-  border-top-right-radius: 42px;
+  border-bottom-right-radius: 42px;
 }
 .program h2 {
   color: var(--font-color-three);

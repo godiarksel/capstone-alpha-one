@@ -66,3 +66,15 @@ font-size: 25px;
   font-weight: 600;
   margin-left: 110px;
 }
+
+.copyright {
+  background-color: var(--bg-color-prog);
+  color: var(--font-color-two);
+}
+
+.copyright p {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding: 15px;
+}
