@@ -41,3 +41,10 @@
   font-weight: 600;
   font-size: 16px;
 }
+.speakers button {
+  font-size: 20px;
+  font-weight: 600;
+  width: 150px;
+  border-style: none;
+  background-color: var(--brd-color-home);
+}

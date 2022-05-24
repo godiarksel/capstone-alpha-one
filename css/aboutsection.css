@@ -1,0 +1,68 @@
+.about {
+  background-color: var(--bg-color-nav);
+  border-bottom-right-radius: 20px;
+}
+.about__para1 {
+  color: var(--font-color-two);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about h1 {
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--font-color-two);
+}
+.about__para2 {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--font-color-one);
+  border: solid;
+  border-radius: 4px;
+  border-color: var(--brd-color-about);
+  background-color: var(--brd-color-home);
+}
+.about h2 {
+  font-family: cocogoose, sans-serif;
+  font-size: 25px;
+  font-weight: 800; 
+  color: var(--font-color-one);
+}
+.about h3 {
+font-style: 600;
+font-size: 25px;
+}
+
+.statement__container h2{
+  font-weight: 600;
+  color: var(--font-color-two);
+}
+
+.statement__container p {
+  background-color: var(--bg-color-nav);
+  border-style: none;
+  border-radius: 4px;
+  padding: 20px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.enquiries {
+  background-color: var(--bg-color-nav);
+  border-top-left-radius: 20px;  
+}
+
+.enquiries h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--font-color-two);
+  margin: 20px;
+}
+
+.enquiries a {
+  text-decoration: underline;
+  color: var(--font-color-one);
+  font-weight: 600;
+  margin-left: 110px;
+}
