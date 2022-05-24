@@ -1,5 +1,6 @@
 .program {
   background-color: var(--bg-color-prog);
+  border-top-right-radius: 42px;
 }
 .program h2 {
   color: var(--font-color-three);
@@ -7,8 +8,47 @@
   font-weight: 600;
   border-bottom: 2px solid var(--font-color-two);
   width: 50%;
+  margin-top: 15px;
+  margin-bottom: 35px;
 }
 
 .program__container__content {
   background-color: var(--bg-color-content);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.program__container__content img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+.program__container__content h3 {
+  color: var(--font-color-two);
+  font-size: 21px;
+  font-weight: 600;
+  margin: 20px;
+}
+.program__container__content p {
+  color: var(--font-color-three);
+  font-weight: 600;
+  font-size: 15px;
+  margin: 10px;
+}
+.program__container button {
+  background-color: var(--font-color-two);
+  color: var(--font-color-three);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 20px;
+  border-style: none;
+  width: 250px;
+  margin: 20px auto;
+  border-radius: 4px;
+}
+
+.program__container button:hover {
+  background-color: var(--font-color-three);
+  color: var(--font-color-two);
 }
