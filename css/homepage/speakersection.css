@@ -1,0 +1,43 @@
+.speakers h2 {
+  color: var(--font-color-one);
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid var(--font-color-two);
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.speakers__container__content {
+  background: var(--bg-color-nav);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.speakers__container__content img {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+}
+
+.speakers__container__content h3 {
+  font-family: cocogoose, sans-serif;
+  color: var(--font-color-one);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.speakers__container__content h4 {
+  color: var(--font-color-two);
+  font-weight: 500;
+  font-size: 18px;
+  font-style: italic;
+  border-bottom: 2px solid var(--font-color-three);
+  margin-right: auto;
+}
+
+.speakers__container__content p {
+  color: var(--font-color-one);
+  font-weight: 600;
+  font-size: 16px;
+}
