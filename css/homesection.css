@@ -19,14 +19,53 @@
   color: var(--font-color-one);
   border: solid;
   border-color: var(--brd-color-home);
+  border-radius: 8px;
 }
+
 .home h2 {
   font-family: cocogoose, sans-serif;
   font-size: 25px;
   font-weight: 800; 
   color: var(--font-color-one);
 }
+
 .home h3 {
 font-style: 600;
 font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+ .home {
+   text-align: left;
+ }
+
+ .home__para1 {
+  font-size: 22px;
+  margin-left: 230px;
+  margin-top: 70px;
+}
+
+.home h1 {
+  font-size: 44px;
+  margin-left: 230px;
+}
+
+.home__para2 {
+  font-size: 15px;
+  max-width: 50%;
+  margin-left: 230px;
+}
+
+.home h2 {
+  font-size: 27px;
+  margin-left: 230px;
+  margin-top: 40px;
+}
+
+.home h3 {
+  font-size: 27px;
+  margin-left: 230px;
+  margin-bottom: 60px;
+  }
+
 }

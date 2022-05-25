@@ -11,11 +11,17 @@
   margin-top: 15px;
   margin-bottom: 35px;
 }
+.program__container {
+  display: flex;
+  flex-direction: column;
+}
 
 .program__container__content {
   background-color: var(--bg-color-content);
   padding: 8px;
   border-radius: 4px;
+  display: flex;
+  flex: 1 1 0px;
 }
 
 .program__container__content img {
@@ -51,4 +57,34 @@
 .program__container button:hover {
   background-color: var(--font-color-three);
   color: var(--font-color-two);
+}
+
+.program a {
+  color: var( --font-color-three);
+  text-decoration: underline;
+  letter-spacing: 1;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 600px;
+}
+
+@media screen and (min-width: 768px) {
+.program__container {
+  flex-direction: row;
+  padding: 50px;
+}
+
+.program__container__content {
+  flex-direction: column;
+}
+
+.program__container button {
+  display: none;
+}
+}
+
+@media screen and (max-width: 768px) {
+.program a {
+  display: none;
+}
 }

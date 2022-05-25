@@ -8,6 +8,11 @@
   margin-bottom: 35px;
 }
 
+.speakers__container {
+  display: flex;
+  flex-direction: column;
+}
+
 .speakers__container__content {
   background: var(--bg-color-nav);
   border-radius: 4px;
@@ -47,4 +52,15 @@
   width: 150px;
   border-style: none;
   background-color: var(--brd-color-home);
+}
+
+@media screen and (min-width: 768px) {
+  .speakers__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+  .speakers button {
+    display: none;
+  }
 }

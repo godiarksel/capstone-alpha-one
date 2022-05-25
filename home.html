@@ -17,13 +17,21 @@
   <script src="https://kit.fontawesome.com/bdd8845187.js" crossorigin="anonymous"></script>
   <title>Masters of Philosophy</title>
 </head>
+
 <body>
 <main>
 <header>
-  <nav class="navigation">
+  <nav class="navigation d-flex align-items-center justify-content-between">
     <i class="fa-solid fa-bars open-menu"></i>
+    <a href="">MoP.™</a>
+    <ul class="navigation__list">
+      <li><a href="">About</a></li>
+      <li><a href="">Program</a></li>
+      <li><a href="">Speakers</a></li>
+    </ul>
   </nav>
 </header>
+
 <section class="home p-4">
   <p class="home__para1">
     "Greetings, students of Philosophy"
@@ -46,12 +54,12 @@
   </h3>
 </section>
 
-<section class="program p-2">
+<section class="program p-4">
   <h2 class="text-center p-3 ml-auto mr-auto">
     Main Program
   </h2>
-  <div class="program__container d-flex flex-column m-3">
-    <div class="program__container__content d-flex flex-row m-2 align-items-center">
+  <div class="program__container m-3">
+    <div class="program__container__content m-2 align-items-center">
       <img src="./images/hologram.png" alt="hologram">
       <h3>
         Lecture
@@ -61,7 +69,7 @@
         using world-class hologram technology.
       </p>
     </div>
-    <div class="program__container__content d-flex flex-row m-2 align-items-center">
+    <div class="program__container__content m-2 align-items-center">
       <img src="./images/itinerary.png" alt="itinerary">
       <h3>
         Tour
@@ -71,7 +79,7 @@
         its state of the art architectural design.
       </p>
     </div>
-    <div class="program__container__content d-flex flex-row m-2 align-items-center">
+    <div class="program__container__content m-2 align-items-center">
       <img src="./images/forum.png" alt="forum">
       <h3>
         Forum
@@ -80,7 +88,7 @@
         Engage in witful discourse with fellow philosphy scholars.
       </p>
     </div>
-    <div class="program__container__content d-flex flex-row m-2 align-items-center">
+    <div class="program__container__content m-2 align-items-center">
       <img src="./images/exhibition.png" alt="exhibition">
       <h3>
         Exhibition
@@ -90,7 +98,7 @@
         an artistic Exhibition of talents.
       </p>
     </div>
-    <div class="program__container__content d-flex flex-row m-2 align-items-center">
+    <div class="program__container__content m-2 align-items-center">
       <img src="./images/shop.png" alt="shop">
       <h3>
         Shop
@@ -104,13 +112,14 @@
       Book your Ticket Now
     </button>
   </div>
+  <a href="">See Full Program</a>
 </section>
 
-<section class="speakers p-2">
+<section class="speakers p-2 m-2">
   <h2 class="text-center p-3 ml-auto mr-auto">
     Featured Speakers
   </h2>
-  <div class="speakers__container d-flex flex-column">
+  <div class="speakers__container">
     <div class="speakers__container__content d-flex align-items-center p-2 m-2">
       <img src="./images/socrates.png" alt="socrates">
       <div class="d-flex flex-column justify-content-center">
@@ -126,11 +135,78 @@
         </p>
       </div>
     </div>
-    <button class="m-auto p-2">
-      MORE 
-      <img  class="m-1 p-2" src="./images/arrow-down.png" alt="arrow-down">
-    </button>
+    <div class="speakers__container__content d-flex align-items-center p-2 m-2">
+      <img src="./images/aristotle.png" alt="aristotle">
+      <div class="d-flex flex-column justify-content-center">
+        <h3>
+          Aristotle
+        </h3>
+        <h4>
+          Greek philosopher
+        </h4>
+        <p>
+          Aristotle was a Greek philosopher and polymath during the Classical period in Ancient Greece. 
+          Taught by Plato, he was the founder of the Lyceum, the Peripatetic school of philosophy, and the Aristotelian tradition.
+        </p>
+      </div>
+    </div>
+    <div class="speakers__container__content d-flex align-items-center p-2 m-2">
+      <img src="./images/marcus-aurelius.png" alt="marcus-aurelius">
+      <div class="d-flex flex-column justify-content-center">
+        <h3>
+          Marcus Aurelius
+        </h3>
+        <h4>
+          Roman Emperor
+        </h4>
+        <p>
+          Marcus Aurelius Antoninus was Roman emperor from 161 to 180 and a Stoic philosopher. 
+          He was the last of the rulers known as the Five Good Emperors, 
+          and the last emperor of the Pax Romana, an age of relative peace and stability for the Roman Empire lasting from 27 BC to 180 AD.
+        </p>
+      </div>
+    </div>
+      <div class="speakers__container__content d-flex align-items-center p-2 m-2">
+        <img src="./images/seneca.png" alt="seneca">
+        <div class="d-flex flex-column justify-content-center">
+          <h3>
+            Seneca
+          </h3>
+          <h4>
+            Roman Philosopher
+          </h4>
+          <p>
+            Lucius Annaeus Seneca the Younger, usually known as Seneca, was a Roman Stoic philosopher, statesman, dramatist, and, 
+            in one work, satirist, from the post-Augustan age of Latin literature. 
+            Seneca was born in Cordoba in Hispania, and raised in Rome, where he was trained in rhetoric and philosophy.
+          </p>
+        </div>
+      </div>
+        <div class="speakers__container__content d-flex align-items-center p-2 m-2">
+          <img src="./images/plato.png" alt="plato">
+          <div class="d-flex flex-column justify-content-center">
+            <h3>
+              Plato
+            </h3>
+            <h4>
+              Greek Philosopher
+            </h4>
+            <p>
+              Plato was a Greek philosopher born in Athens during the Classical period in Ancient Greece. 
+              He founded the Platonist school of thought and the Academy, 
+              the first institution of higher learning in the Western world.
+            </p>
+          </div>
+        </div>
   </div>
+  <button class="m-auto p-2">
+    MORE 
+    <img  class="m-1 p-2" src="./images/arrow-down.png" alt="arrow-down">
+  </button>
+  <button class="m-auto p-2">
+    LESS 
+    <img  class="ml-4 p-2" src="./images/arrow-up.png" alt="arrow-up">
+  </button>
 </section>
 <footer class="copyright">
   <p>
