@@ -15,6 +15,18 @@ width: 25px;
   margin: 10px 40px;
   text-decoration: none;
   color: var(--font-color-one);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navigation a:hover {
+  font-weight: 600;
+  padding: 15px 32px;
+  margin: 10px 40px;
+  text-decoration: none;
+  color: var(--font-color-one);
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .navigation__list {
@@ -34,6 +46,61 @@ width: 25px;
   color: var(--font-color-one);
 }
 
+.navigation__mobile {
+    list-style-type: none;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    background-color: var(--bg-color-prog);
+    text-align: left;
+    transition: 0.4s;
+}
+
+.closed {
+  left: 100%;
+}
+
+.navigation__mobile li {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  color: var(--font-color-three);
+}
+
+.navigation__mobile__links {
+  padding: 25px 32px;
+  font-style: normal;
+  font-weight: 600;
+  float: left;
+  font-size: 40px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.externalLink {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--font-color-three);
+  cursor: pointer;
+}
+
+.externalLink:hover {
+  text-decoration: none;
+  font-weight: bold;
+  cursor: default;
+  color: var(--font-color-three);
+  cursor: pointer;
+}
+
+.close-menu {
+  margin-left: 470px;
+  margin-right: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .navigation a,
   .navigation__list {
@@ -44,5 +111,9 @@ width: 25px;
 @media screen and (min-width: 768px) {
   .navigation i {
     display: none;
+  }
+
+  .close-menu {
+    margin-left: 1150px;
   }
 }

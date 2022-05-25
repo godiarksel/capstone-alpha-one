@@ -22,16 +22,21 @@
 <main>
 <header>
   <nav class="navigation d-flex align-items-center justify-content-between">
-    <i class="fa-solid fa-bars open-menu"></i>
+    <i id="open-menu" class="fa-solid fa-bars open-menu"></i>
     <a href="">MoP.™</a>
     <ul class="navigation__list">
-      <li><a href="">About</a></li>
-      <li><a href="">Program</a></li>
-      <li><a href="">Speakers</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="#program">Program</a></li>
+      <li><a href="#speakers">Speakers</a></li>
     </ul>
   </nav>
 </header>
-
+<ul class="navigation__mobile">
+  <li><a href=""><img id="close-menu" class="close-menu" src="./images/close.png" alt="close"></a></li>
+   <li><a href="./about.html" class="navigation__mobile__links externalLink">About</a></li>
+   <li><a onclick="openLinks('#program');" class="navigation__mobile__links internalLinks">Program</a></li>
+   <li><a onclick="openLinks('#speakers');" class="navigation__mobile__links internalLinks">Speakers</a></li>
+</ul>
 <section class="home p-4">
   <p class="home__para1">
     "Greetings, students of Philosophy"
@@ -54,7 +59,7 @@
   </h3>
 </section>
 
-<section class="program p-4">
+<section id="program" class="program p-4">
   <h2 class="text-center p-3 ml-auto mr-auto">
     Main Program
   </h2>
@@ -115,7 +120,7 @@
   <a href="">See Full Program</a>
 </section>
 
-<section class="speakers p-2 m-2">
+<section id="speakers" class="speakers p-2 m-2">
   <h2 class="text-center p-3 ml-auto mr-auto">
     Featured Speakers
   </h2>
@@ -214,5 +219,6 @@
   </p>
 </footer>
 </main>
+<script src = "main.js"></script>
 </body>
 </html>
