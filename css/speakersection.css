@@ -45,6 +45,7 @@
   color: var(--font-color-one);
   font-weight: 600;
   font-size: 16px;
+  max-height: fit-content;
 }
 .speakers button {
   font-size: 20px;
