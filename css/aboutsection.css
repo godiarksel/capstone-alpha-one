@@ -67,8 +67,8 @@
 .partners {
   background-color: var(--bg-color-prog);
   border-top-left-radius: 49px;
-  color: var( --font-color-three);
-  font-family: Poppins,sans-serif;
+  color: var(--font-color-partner);
+  font-family: Poppins, sans-serif;
   margin: -16px;
   padding: 25px;
 }
@@ -76,7 +76,7 @@
 .partners h2 {
   font-size: 20px;
   font-weight: 500;
-  font-family: lato,sans-serif;
+  font-family: lato, sans-serif;
   font-style: italic;
   width: 50%;
   text-align: center;
@@ -99,7 +99,7 @@
   padding-top: 10px;
 }
 
-.copyright h2{
+.copyright h2 {
   font-size: 16px;
   font-weight: 600;
   text-align: center;
@@ -107,6 +107,7 @@
   padding-top: 20px;
   padding-left: 130px;
 }
+
 .copyright p {
   font-size: 16px;
   font-weight: 600;
@@ -160,15 +161,15 @@
   .partners {
     padding: 50px;
   }
-  
+
   .partners h2 {
     margin-left: 290px;
     font-size: 30px;
   }
 
-.partners__list {
+  .partners__list {
     margin-left: 60px;
-}
+  }
 
   .partners__list li {
     font-size: 24px;
@@ -178,16 +179,16 @@
   }
 
   .copyright {
-      margin-top: 5px;
+    margin-top: 5px;
   }
 
-  .copyright h2{
+  .copyright h2 {
     font-size: 18px;
     padding-left: 450px;
   }
+
   .copyright p {
     font-size: 18px;
     padding-right: 300px;
   }
-
 }
