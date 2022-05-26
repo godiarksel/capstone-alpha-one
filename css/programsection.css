@@ -1,5 +1,8 @@
 .program {
-  background-color: var(--bg-color-prog);
+  background-image: url(../images/dark-blue-bg.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: cover;
   border-bottom-right-radius: 42px;
 }
 

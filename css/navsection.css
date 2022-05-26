@@ -45,6 +45,22 @@
   margin: 10px 20px 10px 200px;
 }
 
+.navigation__list__button {
+  color: var(--font-color-two);
+  font-weight: 600;
+  font-size: 15px;
+  background-color: var(--brd-color-home);
+  border: 2px solid var(--font-color-two);
+  border-radius: 4px;
+  margin: 10px 20px 20px;
+  padding: 5px 25px;
+}
+
+.navigation__list__button:hover {
+  color: var(--brd-color-home);
+  background-color: var(--font-color-two);
+}
+
 .navigation__mobile {
   list-style-type: none;
   position: fixed;
@@ -57,10 +73,6 @@
   background-color: var(--bg-color-prog);
   text-align: left;
   transition: 0.4s;
-}
-
-.closed {
-  left: 100%;
 }
 
 .navigation__mobile li {
