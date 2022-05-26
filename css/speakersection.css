@@ -19,6 +19,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .speakers__container__content img {
   width: 180px;
   height: 180px;
@@ -45,8 +46,8 @@
   color: var(--font-color-one);
   font-weight: 600;
   font-size: 16px;
-  max-height: fit-content;
 }
+
 .speakers button {
   font-size: 20px;
   font-weight: 600;
@@ -61,6 +62,7 @@
     grid-template-columns: auto auto;
     gap: 10px;
   }
+
   .speakers button {
     display: none;
   }

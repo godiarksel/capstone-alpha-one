@@ -2,6 +2,7 @@
   background-color: var(--bg-color-prog);
   border-bottom-right-radius: 42px;
 }
+
 .program h2 {
   color: var(--font-color-three);
   font-size: 20px;
@@ -11,6 +12,7 @@
   margin-top: 15px;
   margin-bottom: 35px;
 }
+
 .program__container {
   display: flex;
   flex-direction: column;
@@ -21,7 +23,7 @@
   padding: 8px;
   border-radius: 4px;
   display: flex;
-  flex: 1 1 0px;
+  flex: 1 1 0;
 }
 
 .program__container__content img {
@@ -36,13 +38,14 @@
   font-weight: 600;
   margin: 20px;
 }
+
 .program__container__content p {
   color: var(--font-color-three);
   font-weight: 600;
   font-size: 15px;
   margin: 10px;
-  max-width: fit-content;
 }
+
 .program__container button {
   background-color: var(--font-color-two);
   color: var(--font-color-three);
@@ -61,31 +64,30 @@
 }
 
 .program a {
-  color: var( --font-color-three);
+  color: var(--font-color-three);
   text-decoration: underline;
-  letter-spacing: 1;
   font-size: 18px;
   font-weight: 600;
   margin-left: 600px;
 }
 
 @media screen and (min-width: 768px) {
-.program__container {
-  flex-direction: row;
-  padding: 50px;
-}
+  .program__container {
+    flex-direction: row;
+    padding: 50px;
+  }
 
-.program__container__content {
-  flex-direction: column;
-}
+  .program__container__content {
+    flex-direction: column;
+  }
 
-.program__container button {
-  display: none;
-}
+  .program__container button {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
-.program a {
-  display: none;
-}
+  .program a {
+    display: none;
+  }
 }

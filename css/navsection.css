@@ -1,11 +1,11 @@
 .open-menu {
-margin: 10px 20px;
-height: 25px;
-width: 25px;
+  margin: 10px 20px;
+  height: 25px;
+  width: 25px;
 }
 
 .navigation {
-  margin: 0px;
+  margin: 0;
 }
 
 .navigation a {
@@ -15,24 +15,7 @@ width: 25px;
   margin: 10px 40px;
   text-decoration: none;
   color: var(--font-color-one);
-  font-weight: bold;
   cursor: pointer;
-}
-
-.navigation a:hover {
-  font-weight: 600;
-  padding: 15px 32px;
-  margin: 10px 40px;
-  text-decoration: none;
-  color: var(--font-color-one);
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.navigation__list {
-  list-style-type: none;
-  display: flex;
-  margin: 10px 20px 10px 200px;
 }
 
 .navigation__list a {
@@ -46,18 +29,33 @@ width: 25px;
   color: var(--font-color-one);
 }
 
+.navigation a:hover {
+  font-weight: 600;
+  padding: 15px 32px;
+  margin: 10px 40px;
+  text-decoration: none;
+  color: var(--font-color-one);
+  cursor: pointer;
+}
+
+.navigation__list {
+  list-style-type: none;
+  display: flex;
+  margin: 10px 20px 10px 200px;
+}
+
 .navigation__mobile {
-    list-style-type: none;
-    position: fixed;
-    height: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: none;
-    background-color: var(--bg-color-prog);
-    text-align: left;
-    transition: 0.4s;
+  list-style-type: none;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  background-color: var(--bg-color-prog);
+  text-align: left;
+  transition: 0.4s;
 }
 
 .closed {
@@ -91,7 +89,6 @@ width: 25px;
 .externalLink:hover {
   text-decoration: none;
   font-weight: bold;
-  cursor: default;
   color: var(--font-color-three);
   cursor: pointer;
 }
