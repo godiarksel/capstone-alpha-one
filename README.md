@@ -27,6 +27,7 @@ This is my capstone project for module one.
    6. [Flaticon Author: Pixel perfect](https://www.flaticon.com/authors/pixel-perfect)
    7. [Pixabay Author: Gordon Johnson](https://pixabay.com/users/gdj-1086657/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5650230)
    8. [Pixabay Author: Vizetelly](https://pixabay.com/users/vizetelly-6208731/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amputm_content=6363862)
+   9.[White Design Vector created by freepik.com](https://www.freepik.com/vectors/white-design)
 
 
 ## Acknowledgments

@@ -80,6 +80,10 @@
   .program__container__content {
     flex-direction: column;
   }
+  
+  .program__container__content p {
+    text-align: center;
+  }
 
   .program__container button {
     display: none;

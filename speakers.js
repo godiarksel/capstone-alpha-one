@@ -46,7 +46,7 @@ let speakerCards = '';
 
 for (let i = 0; i < speakerInfo.length; i += 1) {
   speakerCards += `
-  <div class="speakers__container__content d-flex align-items-center p-2 m-2">
+  <article class="speakers__container__content d-flex align-items-center p-2 m-2">
   <img src="${speakerInfo[i].img}" alt="${speakerInfo[i].name}">
   <div class="d-flex flex-column justify-content-center">
     <h3>
@@ -59,7 +59,7 @@ for (let i = 0; i < speakerInfo.length; i += 1) {
       ${speakerInfo[i].description}
     </p>
   </div>
-</div>
+</article>
    `;
 }
 speakerContainer.innerHTML += speakerCards;

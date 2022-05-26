@@ -1,5 +1,8 @@
 .home {
-  background-color: var(--bg-color-nav);
+  background-image: url(../images/bg-vector.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: cover;
 }
 
 .home__para1 {
@@ -15,9 +18,8 @@
 }
 
 .home__para2 {
-  font-family: cocogoose, sans-serif;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   color: var(--font-color-one);
   border: solid;
   border-color: var(--brd-color-home);

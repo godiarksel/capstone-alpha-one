@@ -1,5 +1,8 @@
 .about {
-  background-color: var(--bg-color-nav);
+  background-image: url(../images/bg-vector.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: cover;
   border-bottom-right-radius: 20px;
   padding: 20px;
 }
@@ -18,25 +21,14 @@
 
 .about__para2 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   font-style: italic;
+  padding: 12px;
   color: var(--font-color-one);
-  border: solid;
+  border-width: thin;
   border-radius: 4px;
-  border-color: var(--brd-color-about);
+  border-color: var(--brd-color-nav);
   background-color: var(--brd-color-home);
-}
-
-.about h2 {
-  font-family: cocogoose, sans-serif;
-  font-size: 25px;
-  font-weight: 800;
-  color: var(--font-color-one);
-}
-
-.about h3 {
-  font-weight: 600;
-  font-size: 25px;
 }
 
 .statement {
@@ -50,43 +42,77 @@
 }
 
 .statement__container p {
-  background-color: var(--bg-color-nav);
+  background-color: var(--bg-color-home);
   border-style: none;
   border-radius: 4px;
   padding: 20px;
   font-style: italic;
-  font-weight: 600;
+  font-weight: 500;
 }
 
-.enquiries {
-  background-color: var(--bg-color-nav);
-  border-top-left-radius: 20px;
-}
-
-.enquiries h2 {
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--font-color-two);
+.about__enq {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--font-color-one);
   margin: 20px;
 }
 
-.enquiries a {
+.about__enq__mail {
+  font-size: 15px;
   text-decoration: underline;
   color: var(--font-color-one);
   font-weight: 600;
+}
+
+.partners {
+  background-color: var(--bg-color-prog);
+  border-top-left-radius: 49px;
+  color: var( --font-color-three);
+  font-family: Poppins,sans-serif;
+  margin: -16px;
+  padding: 25px;
+}
+
+.partners h2 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: lato,sans-serif;
+  font-style: italic;
+  width: 50%;
+  text-align: center;
   margin-left: 110px;
 }
 
-.copyright {
-  background-color: var(--bg-color-prog);
-  color: var(--font-color-two);
+.partners__list li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px;
+  margin: 15px;
+  max-width: 50%;
 }
 
-.copyright p {
+.copyright {
+  background-color: var(--font-color-three);
+  color: var(--bg-color-prog);
+  padding-top: 10px;
+}
+
+.copyright h2{
   font-size: 16px;
   font-weight: 600;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-left: 130px;
+}
+.copyright p {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px;
+  padding-right: 50px;
 }
 
 @media screen and (min-width: 768px) {
@@ -102,15 +128,17 @@
 
   .about h1 {
     font-size: 44px;
-    margin-left: 210px;
+    margin-left: 10px;
+    text-align: center;
   }
 
   .about__para2 {
-    font-size: 18px;
-    padding: 20px;
+    font-size: 22px;
+    padding: 24px;
     max-width: 50%;
-    margin-left: 210px;
+    margin-left: 310px;
     margin-top: 30px;
+    text-align: center;
   }
 
   .statement__container h2 {
@@ -120,19 +148,46 @@
   }
 
   .statement__container p {
-    background-color: var(--bg-color-nav);
-    border-style: none;
-    border-radius: 4px;
     padding: 23px;
     font-size: 20px;
     font-style: italic;
-    font-weight: 600;
+    font-weight: 500;
     max-width: 60%;
     margin: 20px;
     margin-left: 190px;
   }
 
-  .enquiries a {
-    margin-left: 550px;
+  .partners {
+    padding: 50px;
   }
+  
+  .partners h2 {
+    margin-left: 290px;
+    font-size: 30px;
+  }
+
+.partners__list {
+    margin-left: 60px;
+}
+
+  .partners__list li {
+    font-size: 24px;
+    padding: 20px;
+    margin: 30px;
+    padding-left: 15px;
+  }
+
+  .copyright {
+      margin-top: 5px;
+  }
+
+  .copyright h2{
+    font-size: 18px;
+    padding-left: 450px;
+  }
+  .copyright p {
+    font-size: 18px;
+    padding-right: 300px;
+  }
+
 }

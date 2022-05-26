@@ -14,7 +14,7 @@
 }
 
 .speakers__container__content {
-  background: var(--bg-color-nav);
+  background: var(--bg-color-speaker);
   border-radius: 4px;
   margin-top: 20px;
   margin-bottom: 20px;

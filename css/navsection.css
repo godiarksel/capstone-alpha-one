@@ -6,12 +6,13 @@
 
 .navigation {
   margin: 0;
+  background-color: var(--bg-color-speaker);
 }
 
 .navigation a {
   font-weight: 600;
-  font-size: 30px;
-  padding: 15px 32px;
+  font-size: 40px;
+  padding: 0px 32px;
   margin: 10px 40px;
   text-decoration: none;
   color: var(--font-color-one);
@@ -21,7 +22,7 @@
 .navigation__list a {
   text-decoration: none;
   float: right;
-  padding: 15px 32px;
+  padding: 5px 32px;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -31,7 +32,7 @@
 
 .navigation a:hover {
   font-weight: 600;
-  padding: 15px 32px;
+  padding: 0px 32px;
   margin: 10px 40px;
   text-decoration: none;
   color: var(--font-color-one);
