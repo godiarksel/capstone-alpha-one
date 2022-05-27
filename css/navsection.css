@@ -1,3 +1,4 @@
+
 .open-menu {
   margin: 10px 20px;
   height: 25px;
@@ -114,6 +115,10 @@
 @media screen and (max-width: 768px) {
   .navigation a,
   .navigation__list {
+    display: none;
+  }
+
+  .logIn {
     display: none;
   }
 }

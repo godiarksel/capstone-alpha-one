@@ -28,7 +28,7 @@ const speakerInfo = [
     img: './images/seneca.png',
     name: 'Seneca',
     title: 'Roman Philosopher',
-    description: `Lucius Annaeus Seneca the Younger, usually known as Seneca, was a Roman Stoic philosopher, 
+    description: `Lucius Annaeus Seneca the Younger, was a Roman Stoic philosopher, 
                  statesman, dramatist, and, in one work, satirist, from the post-Augustan age of Latin literature. 
                  Seneca was born in Cordoba in Hispania, and raised in Rome, where he was trained in rhetoric and philosophy.`,
   },
@@ -46,7 +46,7 @@ let speakerCards = '';
 
 for (let i = 0; i < speakerInfo.length; i += 1) {
   speakerCards += `
-  <article class="speakers__container__content d-flex align-items-center p-2 m-2">
+  <article class="speakers__container__content d-flex align-items-center m-2 p-1">
   <img src="${speakerInfo[i].img}" alt="${speakerInfo[i].name}">
   <div class="d-flex flex-column justify-content-center">
     <h3>

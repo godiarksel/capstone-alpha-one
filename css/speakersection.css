@@ -1,11 +1,16 @@
-.speakers h2 {
+.featured {
   color: var(--font-color-one);
   font-size: 20px;
   font-weight: 600;
-  border-bottom: 2px solid var(--font-color-two);
   width: 50%;
   margin-top: 15px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
+}
+
+.feat-speakers {
+  width: 8%;
+  margin: 6px auto;
+  border: 1px solid var(--font-color-two);
 }
 
 .speakers__container {
@@ -14,8 +19,6 @@
 }
 
 .speakers__container__content {
-  background: var(--bg-color-speaker);
-  border-radius: 4px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -61,6 +64,10 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
+  }
+
+  .feat-speakers {
+    width: 3%;
   }
 
   .speakers button {

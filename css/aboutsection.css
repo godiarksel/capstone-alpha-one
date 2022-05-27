@@ -47,14 +47,19 @@
   margin-left: 70px;
 }
 
-.statement h2 {
+.Ostate {
   color: var(--font-color-two);
   font-size: 18px;
   font-weight: 600;
-  border-bottom: 2px solid var(--font-color-one);
   width: 50%;
   margin-top: 15px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
+}
+
+.our-state {
+  width: 8%;
+  margin: 0 auto;
+  border: 1px solid var(--font-color-one);
 }
 
 .about__enq {
@@ -80,11 +85,17 @@
   padding: 25px;
 }
 
-.partners h2 {
+.partner-title {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: lato, sans-serif;
   font-style: italic;
+}
+
+.partner {
+  width: 6%;
+  margin: 6px auto;
+  border: 1px solid var(--font-color-partner);
 }
 
 .partners__list li {
@@ -146,8 +157,12 @@
     text-align: center;
   }
 
-  .statement h2 {
+  .Ostate {
     font-size: 30px;
+  }
+
+  .our-state {
+    width: 3%;
   }
 
   .statement__container {
@@ -160,17 +175,20 @@
     height: 450px;
     max-width: 50%;
     margin: 20px;
-
-    /* padding: 50px; */
   }
 
   .partners {
     padding: 50px;
   }
 
-  .partners h2 {
+  .partner-title {
     margin-left: 290px;
     font-size: 30px;
+    font-weight: 600;
+  }
+
+  .partner {
+    width: 2%;
   }
 
   .partners__list {
